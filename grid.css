@@ -1,0 +1,85 @@
+:root {
+  --ff-primary: "Roboto Mono", monospace;
+
+  --clr-neutral-100: #e6eceb;
+  --clr-primary-200: #D9E4DD;
+  --clr-primary-300: #FFD3B4;
+  --clr-neutral-600: #383636;
+}
+
+body {
+  background-color: var(--clr-neutral-100);
+}
+
+header h1 {
+  margin-top: 4rem;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-family: var(--ff-primary);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-selector {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.file-selector__input {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.companyDataDisplay__table {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.companyDataDisplay__table tr {
+  background-color: white;
+}
+
+.companyDataDisplay__table th {
+  border-radius: 2px;
+  padding: 2rem;
+  font-family: var(--ff-primary);
+}
+
+.companyDataDisplay__table td {
+  border-radius: 2px;
+  background-color: white;
+  color: var(--clr-neutral-600);
+  font-family: var(--ff-primary);
+  padding: 0.5rem;
+}
+
+table tbody tr td:hover {
+  background-color: var(--clr-primary-200);
+}
+
+.generateTableData__bubble {
+  background-color: var(--clr-primary-200);
+  border-radius: 20rem;
+}
+
+.generateTableData__decrease {
+  background-color: var(--clr-primary-300);
+  border-radius: 20rem;
+}
+
+.generateTableData_increase {
+  background-color: var(--clr-neutral-100);
+}
